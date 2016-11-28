@@ -1,0 +1,59 @@
+  <!DOCTYPE html>
+<html>
+<head><h1>Edit Personal Details</h1>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
+}
+</style>
+<title>Profile</title>
+</head>
+<body>
+<table style="width:100%">
+ <tr>
+    <th>Course</th>
+    <th>Details</th>
+ </tr>
+ <tr>
+    <td><form action="action_page.php" action="/login" method="post" >
+  Course name:
+    </td>
+    <td> <input type="text" name="Course name" placeholder="e.g introducation"></td>
+ </tr>
+  <tr>
+    <td>Category</td>
+    <td><input type="text" name="Category" placeholder="select category"></td>
+  </tr>
+ <tr>
+    <td>Description</td>
+    <td><textarea rows="2" cols="19">
+Add a code description upto 5000 charactercies...
+</textarea></td>
+<tr>
+   <td><input type="radio" name="gender" value="Active" checked> Active</td>
+   <td><input type="radio" name="gender" value="Hide from catelog">Hide from catelog<br></td>
+</tr>     
+<tr> 
+   <td>Course code:</td>
+   <td><input type="text" name="Course code" placeholder="e.g C,C++,Java"></td>
+</tr>  
+<tr>
+    <td> Price:</td>
+    <td> <input type="text" name="Price" placeholder="$ 1589"></td>
+</tr>
+<tr>
+    <td>Time limit:</td>
+    <td>  <input type="text" name="Time limit" placeholder="36"></td>
+</tr>
+<tr>
+ </table>
+ <table style="width:100%">
+ <p><input type="radio" name="gender" value="Retain acess for user who have completed the course" checked> Retain acess for user who have completed the course</p>
+ <br>
+   <input type="Submit" value="Save and Select user" <p> or cancel</p> 
+ </table>   	
+
+</body>

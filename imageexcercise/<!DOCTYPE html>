@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WONDERSOFT</title>
+<style>
+
+	
+</style>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<body>
+<div class="testimonial">
+<div class="testimonial-h-sg">
+<div class="testimonial-h-sub"><strong>Head Office &#8211; Chennai</strong></div>
+</div>
+<table class="testimonial-row" width="100%" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td class="test-div-border"><strong>Wondersoft Pte Limited</strong><br />
+120, Arya Gowder Road,<br />
+West Mambalam,<br />
+Chennai &#8211; 600 033,<br />
+<strong>Phone:</strong> +91 44 42073411<br />
+<strong>Fax:</strong> +91 44 42065354</td>
+</tr>
+</tbody>
+</table>
+<div class="testimonial-h-sg">
+<div class="testimonial-h-sub"><strong>Branch Office &#8211; Bangalore</strong></div>
+</div>
+<table class="testimonial-row" width="100%" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td class="test-div-border">No.1389,18th Main,<br />
+J.P.Nagar II Phase,<br />
+Bangalore &#8211; 560078<br />
+Landmark: Near Croma J.P.Nagar</td>
+</tr>
+</tbody>
+</table>
+<div class="testimonial-h-sg">
+<div class="testimonial-h-sub"><strong>Branch Office &#8211; Delhi</strong></div>
+</div>
+<table class="testimonial-row" width="100%" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td class="test-div-border">302, Third floor, Savitri Sadan,<br />
+Plot No.15, Community Center,<br />
+Preet Vihar, Behind Petrol Pump,<br />
+Delhi-110 092</td>
+</tr>
+</tbody>
+</table>
+</div>

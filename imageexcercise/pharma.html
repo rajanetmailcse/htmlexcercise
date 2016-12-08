@@ -5,157 +5,199 @@
   <title>pharma page</title>
 
   <style>
-      .rscontainer {
-     border: 1px solid black;
-   
-    margin-top: 15px;
-    width: 1090px;
-    height: 930px;         
-    margin-left: 95px;
-    margin-bottom: 15px;
-                     
-      }  
-      
+    .rscontainer {
+      border: 1px solid black;
+      margin-top: 15px;
+      width: 1090px;
+      height: 930px;
+      margin-left: 95px;
+      margin-bottom: 15px;
+    }
+    
     #rsblockmain {
       width: 736px;
-      height: 930px; 
+      height: 930px;
       border: 1px solid green;
-      float: left;     
-      background-color: lightblue;
-
+      float: left;
+      background-color: ;
     }
     
     #rsblocksub {
       width: 350px;
-      height: 930px; 
+      height: 930px;
       border: 1px solid green;
-      float: right;  
-      background-color:gray;
-  
+      float: right;
+      background-color: white;
     }
-    #row1 p
-     {
-    font-size: 14px;
-    line-height: 21px;
-    padding: 8px 25px;
-    left: -118px;
-}
-      #row2 p
-     {
-    font-size: 14px;
-    line-height: 21px;
-    padding: 8px 25px;
-}
-      #row3 p
-     {
-    font-size: 14px;
-    line-height: 21px;
-    padding: 8px 25px;
-}
-      #row4 p
-     {
-    font-size: 14px;
-    line-height: 21px;
-    padding: 8px 25px;
-}
-  #row1 h3 {
-    font-size: 16px;
-    line-height: 30px;
-    padding: 15px 25px 8px 48px;
-    margin-bottom: 15px;
-}
+    
 
-    </style>
-    </head>
+    table {
+    table-layout:fixed; /* force a solid grid */
+    border:collapse;
+    margin: 0 auto 1em;
+    
+  }
+
+     table th, table td {
+        white-space:wrap; /* don't want wrapping text */
+        padding:12px 20px 12px 15px; /* right padding for required field marker */
+         border: 1px dashed black;
+         border:collapse;
+      }
+
+     
+   
+
+      td.required, tr.required td {
+        background:url("../req.gif") center right no-repeat;
+      }
+
+      table p {
+        width:100%; /* simply scale inputs to table cell size */
+      }
+ 
+
+    #row1 p {
+      font-size: 14px;
+      line-height: 21px;
+      padding: 8px 25px;
+      left: -178px;
+    }
+    
+    #row2 p {
+      font-size: 14px;
+      line-height: 21px;
+      padding: 8px 25px;
+    }
+    
+    #row3 p {
+      font-size: 14px;
+      line-height: 21px;
+      padding: 8px 25px;
+    }
+    
+    #row4 p {
+      font-size: 14px;
+      line-height: 21px;
+      padding: 8px 25px;
+    }
+    
+    #row1 h3 {
+      font-size: 16px;
+      line-height: 30px;
+      padding: 15px 25px 8px 48px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
 
 <body class="rscontainer">
-  <div id="rscontainer">
-  <div id="rsblockmain">
-      <h2>Pharmacies & Healthcare</h2> 
-      <table width=100%>
-      <tr>
-      <div style="width: 630px;padding: 10px 0;border-bottom: 1px dashed #bbb;position: relative;top: -18px;">
-        <td>
-        <img src="./images/pharma1.jpg"style=" position: relative;right: -30px;
-    top: 8px;">
-        </td> 
-        <td colspan="2">
-          <h3> Expiry & Scheduled Drugs Management</h3>
-          <div id="row1">
-          <p>Effective expiry management through batch tracking, block billing of expired drugs to customers. Alerts/report on nearing expiry drugs and manage returns to vendors for credit. Alert when issue of scheduled drugs, without prescription. Generation of Schedule/Prescription register.</p>
-          </div>
-          </td>
-        </div>
-      </tr>
-      <tr>
-      <div style="width: 630px;padding: 10px 0;border-bottom: 1px dashed #bbb;position: relative;top: 235px;">
-        <td colspan="2"1
-          <h3>Inventory Management</h3>
-           <div id="row2">
-          <p>Manage large number of SKUs. Product & quantity updates, physical inventory, Stock – tracking, correction, and transfer helps in managing inventory. Inventory storage tracked by racks/shelf’s for visibility.</p>
-          </div>
-        </td>
-        <td>
-        <img src="./images/pharma2.jpg">
-        </td>
-        </div>
-      </tr>
-      <tr>
-      <div style="width: 630px;padding: 10px 0;border-bottom: 1px dashed #bbb;position: relative;top:398px;">
-        <td>
-          <img src="./images/pharma3.jpg">
-        </td>
-        <td colspan="2">
-          <h3>Accounting</h3>
-           <div id="row3">
-          <p>Accounting is a crucial discipline for keeping track of quantifiable factors for a business. Receipts, advanced payment & refund options, financial accounts, cheque maintenance and bank reconciliation play a key role in our Retail, Wholesale & Web based POS.</p>
-          </div>
-        </td>
-      </tr>
-      <tr>
-      <div style="width: 630px;padding: 10px 0;border-bottom: 1px dashed #bbb;position: relative;top:578px;">
-        <td colspan="2">
-          <h3>Reports</h3>
-          <div id="row4">
-          <p>Sales – daily, monthly, representative incentives, Analysis – product age, hourly sales, GP & TOP reports, multiple month comparison, Stock movement, audit reports, multi location stock holding and other Dashboards.</p>
-          </div>
-        </td>
-        <td colspan="2">
-          <img src="./images/pharma4.jpg">
-        </td>
-      </tr>
-      </table>
-      
-      
-  </div>
-      <div id="rsblocksub" ><br>
-      <table>
-      <tr>
-      <br>
-      <br>
-<form action="demo_form.asp">
-         <center><input type="text" name="FirstName" value="+91 44 4207 3411"><center><br>
-         <center><input type="text" name="LastName" value="sales@wondersoft.in"></center><br>
 
-</form>
-</tr>   
-<br>
-<br>
-<tr>
-<form action="demo_form.asp">
-         <center><input  type="text" name="FirstName" value="Download Brochure1"></center>
-         <center><input  type="text" name="LastName" value="eShopAid"></center>
-         <center><input  type="text" name="LastName" value="ShopAid"></center>
-</form>
-    <img src="./images/fb.jpg" style="width: 39px;height: 35px;left: 72px;position: relative;top: 15px;">
-    <img src="./images/twitter.jpg" style="width: 36px;height: 32px;position: relative;left: 83px;top: 14px;">
-    <img src="./images/in.png" style="width: 36px; height: 32px;position: relative;left: 93px;top: 13px;">
-    <img src="./images/msg.png" style="height:46px;    width: 38px;top: 19px;position: relative;left: 104px;">
-    <img src="./images/share.jpg" style="height:39px;    width: 41px;top: 16px;position: relative;left: 114px;">
- </tr>
-    </table>
+  <div id="rscontainer">  
+    <div id="rsblockmain">
+    <hr>
+     <h2 style="color:blue;position: relative;right: -29px;" "="">Pharmacies &amp; Healthcare</h2>
+       <table width=100% >
+          <tr>
+            <td style=" border-right-width: 0px;">
+      <img src="./images/pharma1.jpg" >
+          </td>
+          <td colspan="3">
+            <h3> Expiry & Scheduled Drugs Management</h3>
+           
+              <p>Effective expiry management through batch tracking, block billing of expired drugs to customers. Alerts/report on nearing expiry drugs and manage returns to vendors for credit. Alert when issue of scheduled drugs, without prescription. Generation
+                of Schedule/Prescription register.</p>
+           
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3" <td colspan="3" style="border-right-width: 0px;border-bottom-width: 0px;
+    border-left-width: 1px;border-top-width: 0px;"> 
+     <h3>Inventory Management</h3>
+           <p>Manage large number of SKUs. Product & quantity updates, physical inventory, Stock – tracking, correction, and transfer helps in managing inventory. Inventory storage tracked by racks/shelf’s for visibility.</p>
+  
+          </td>
+          <td <td style="border-top-width: 0px;border-bottom-width: 0px;">
+            <img src="./images/pharma2.jpg">
+          </td>
+        </tr>
+        <tr>
+          <td <td style="border-right-width: 0px;">
+            <img src="./images/pharma3.jpg">
+          </td>
+          <td colspan="3">
+            <h3>Accounting</h3>
+           
+              <p>Accounting is a crucial discipline for keeping track of quantifiable factors for a business. Receipts, advanced payment & refund options, financial accounts, cheque maintenance and bank reconciliation play a key role in our Retail, Wholesale
+                & Web based POS.</p>
+           
+          </td>
+        </tr>
+        <tr>
+        <td colspan="3" style=" border-right-width: 0px;border-top-width: 0px;">
+            <h3>Reports</h3>
+           
+              <p>Sales – daily, monthly, representative incentives, Analysis – product age, hourly sales, GP & TOP reports, multiple month comparison, Stock movement, audit reports, multi location stock holding and other Dashboards.</p>
+           
+          </td>
+         <td style="border-top-width: 0px;">
+            <img src="./images/pharma4.jpg">
+          </td>
+        </tr>
+      </table>
+  </div>          
+   <!--------div main block---->
+    <div id="rsblocksub">
+      <br>
+      <table>
+        <tr>
+          <br>
+          <br>
+          <form action="demo_form.asp">
+            <center>
+             <input type="text" name="LastName" value="+91 44 4207 3411" style="width: 285px;height: 30px;background-color:green;border-top-width: 0px;border-right-width: 0px;padding-bottom: 0px;padding-top: 0px;border-bottom-width: 0px;border-left-width: 0px;padding-left: 0px;">
+              <center>
+                <center>
+                <input type="text" name="LastName" value="sales@wondersoft.in" style="width: 285px;height: 30px;background-color:green;border-bottom-width: 0px;padding-top: 0px;border-left-width: 1px;border-right-width: 1px;">
+                </center>
+                <br>
+
+          </form>
+        </tr>
+        <br>
+        <br>
+        <tr>
+          <form action="demo_form.asp">
+            <center>
+            <input type="text" name="FirstName" value="Download Brochure1" style="width: 285px;height: 30px;background-color:green;border-bottom-width: 0px;">
+            </center>
+            <center>
+          <input type="text" name="LastName" value="eShopAid" style="width: 285px;height: 30px;background-color:green;border-bottom-width: 0px;">
+            </center>
+            <center>
+            <input type="text" name="LastName" value="ShopAid" style="width: 285px;height: 30px; background-color:green">
+            </center>
+          </form>
+           <div id ="share">
+         <h4 style="margin-bottom: 26px;
+             padding: 0 10px;
+    color: #333;
+    line-height: 32px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #eee;
+    margin-right: 1px;">Share this</h4>  
+    </div> 
+          <img src="./images/fb.jpg" style="width: 39px;height: 35px;left: 72px;position: relative;top: -71px;">
+          <img src="./images/twitter.jpg" style="width: 36px;height: 32px;position: relative;left: 77px;top: -73px;">
+          <img src="./images/in.png" style="width: 36px; height: 32px;position: relative;left: 85px;top: -72px;">
+          <img src="./images/msg.png" style="height:46px;    width: 38px;top: -66px;position: relative;left: 89px;">
+          <img src="./images/share.jpg" style="height:39px;    width: 41px;top: -70px;position: relative;left: 95px;">
+        </tr>
+      </table>
     </div>
-      </div>
- 
+  </div>
+
 </body>
+
 </html>
